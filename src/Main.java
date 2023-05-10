@@ -21,7 +21,7 @@ public class Main {
             numbers[i] = number;
             if (number % 2 == 0) {
                 System.out.println("this ran");
-                primeNumbers[primeNumbers.length] = number;
+                primeNumbers[i] = number;
             }
         }
         for (int index = 0; index < n; index++) {
